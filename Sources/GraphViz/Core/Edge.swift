@@ -178,6 +178,9 @@ extension Edge {
         @Attribute("fontcolor")
         public var textColor: Color?
 
+        @Attribute("label")
+        public var label: String?
+
         @Attribute("labelURL")
         public var labelURL: URL?
 
@@ -409,6 +412,7 @@ extension Edge.Attributes {
             _fontName,
             _fontSize,
             _textColor,
+            _label,
             _labelURL,
             _labelDistance,
             _labelAngle,
